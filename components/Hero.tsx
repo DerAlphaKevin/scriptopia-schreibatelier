@@ -16,7 +16,7 @@ export const Hero: React.FC = () => {
 
         <div className="space-y-6 mt-12">
           <h2 className="text-xl md:text-2xl font-garamond italic text-gray-700 tracking-wide">
-            Handgefertigte Travelers Notebooks
+            Handgefertigte Journal Cover
           </h2>
           
           <div className="inline-block border border-black/20 px-6 py-2 rounded-full mt-4">
@@ -25,7 +25,7 @@ export const Hero: React.FC = () => {
 
           <p className="max-w-xl mx-auto text-gray-600 font-light leading-relaxed px-4">
             Wir arbeiten gerade an unseren handgefertigten Schätzen. 
-            Bald findest du hier einzigartige Travelers Notebooks, die deine Reisen und Gedanken begleiten.
+            Bald findest du hier einzigartige Journal Covers, die deine Reisen und Gedanken begleiten.
           </p>
         </div>
 
