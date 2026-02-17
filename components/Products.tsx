@@ -27,7 +27,7 @@ export const Products: React.FC = () => {
       <div className="grid grid-cols-1 md:grid-cols-2 gap-12">
         <ProductCard 
           title="Traveler's Notebook (A5)" 
-          description="Perfekt für intensive Reisen und kreative Projekte. Mit mehr Platz für detaillierte Skizzen, längere Texte und umfangreiche Sammlungen. Ideal für deine großen Abenteuer."
+          description="Perfekt für intensive Gedanken, Ideen und kreative Projekte. Mit mehr Platz für detaillierte Skizzen, längere Texte und umfangreiche Sammlungen. Ideal für deine großen Abenteuer."
           image="/images/products/a5-natur.png"
         />
         <ProductCard 
