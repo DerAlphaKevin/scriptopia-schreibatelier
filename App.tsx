@@ -2,6 +2,7 @@
 import React, { useState, useEffect } from 'react';
 import { Routes, Route } from 'react-router-dom';
 import { Hero } from './components/Hero';
+import { Products } from './components/Products';
 import { AboutMe } from './components/AboutMe';
 import { Availability } from './components/Availability';
 import { Footer } from './components/Footer';
@@ -23,6 +24,7 @@ const Home: React.FC = () => {
       
       <main className="relative z-10">
         <Hero />
+        <Products />
         <AboutMe />
         <Availability />
       </main>

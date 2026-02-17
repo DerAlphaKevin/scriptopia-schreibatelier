@@ -3,44 +3,41 @@ import React from 'react';
 
 const ProductCard: React.FC<{ title: string; description: string; image: string }> = ({ title, description, image }) => (
   <div className="group">
-    <div className="overflow-hidden rounded-lg aspect-square mb-4 bg-scriptopia-beige relative">
+    <div className="overflow-hidden rounded-3xl aspect-square mb-6 bg-[#d5c5b5] relative shadow-md w-4/5 mx-auto">
       <img 
         src={image} 
         alt={title} 
-        className="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110"
+        className="w-full h-full object-cover transition-transform duration-700 group-hover:scale-105 opacity-60 mix-blend-multiply"
       />
-      <div className="absolute inset-0 bg-black/5 group-hover:bg-transparent transition-colors duration-300"></div>
     </div>
-    <h3 className="text-xl mb-2">{title}</h3>
-    <p className="text-sm text-gray-600 font-light">{description}</p>
+    <h3 className="text-2xl font-serif mb-3">{title}</h3>
+    <p className="text-gray-600 font-light leading-relaxed">{description}</p>
   </div>
 );
 
 export const Products: React.FC = () => {
   return (
-    <section className="py-24 px-6 max-w-7xl mx-auto bg-[#faf4e1]">
-      <div className="text-center mb-16">
-        <h2 className="text-4xl md:text-5xl mb-4">Was dich erwartet</h2>
-        <p className="text-gray-500 font-garamond italic text-lg">Ein kleiner Einblick in meine Kollektion</p>
+    <section className="py-24 px-6" style={{ backgroundColor: '#e8dcc0' }}>
+      <div className="max-w-6xl mx-auto">
+        <div className="text-center mb-16">
+        <h2 className="text-4xl md:text-5xl mb-4 font-serif">Meine Produkte</h2>
+        <div className="w-16 h-1 bg-black/10 rounded-full mx-auto"></div>
       </div>
 
-      <div className="grid grid-cols-1 md:grid-cols-3 gap-12">
+      <div className="grid grid-cols-1 md:grid-cols-2 gap-12">
         <ProductCard 
-          title="A5 Travelers Notebook – Natur" 
-          description="Echtleder-Hülle in wunderschönem Naturton, die mit der Zeit eine einzigartige Patina entwickelt."
-          image="/images/products/a5-natur.jpg"
+          title="Traveler's Notebook (A5)" 
+          description="Perfekt für intensive Gedanken, Ideen und kreative Projekte. Mit mehr Platz für detaillierte Skizzen, längere Texte und umfangreiche Sammlungen. Ideal für deine großen Abenteuer."
+          image="/images/products/a5-natur.png"
         />
         <ProductCard 
-          title="A5 Travelers Notebook – Design" 
-          description="A5-Format mit verspielem, floralen Design aus hochwertigen Baumwollstoffen."
-          image="/images/products/a5-design.jpg"
+          title="Traveler's Notebook (A6)" 
+          description="Praktisch und kompakt für den Alltag. Die handliche Größe passt in jede Tasche und ist perfekt für kurze Notizen, schnelle Gedanken und spontane Momente unterwegs."
+          image="/images/products/a6-standard.png"
         />
-        <ProductCard 
-          title="A6 Travelers Notebook" 
-          description="Kompaktes Format für unterwegs - alle Qualitätsmerkmale in handlicher Größe für deine täglichen Notizen."
-          image="/images/products/a6-standard.jpg"
-        />
+      </div>
       </div>
     </section>
   );
 };
+
