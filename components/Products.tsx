@@ -26,12 +26,12 @@ export const Products: React.FC = () => {
 
       <div className="grid grid-cols-1 md:grid-cols-2 gap-12">
         <ProductCard 
-          title="Traveler's Notebook (A5)" 
+          title="Journal Cover (A5)" 
           description="Perfekt für intensive Gedanken, Ideen und kreative Projekte. Mit mehr Platz für detaillierte Skizzen, längere Texte und umfangreiche Sammlungen. Ideal für deine großen Abenteuer."
           image="/images/products/a5-natur.png"
         />
         <ProductCard 
-          title="Traveler's Notebook (A6)" 
+          title="Journal Cover (A6)" 
           description="Praktisch und kompakt für den Alltag. Die handliche Größe passt in jede Tasche und ist perfekt für kurze Notizen, schnelle Gedanken und spontane Momente unterwegs."
           image="/images/products/a6-standard.png"
         />
