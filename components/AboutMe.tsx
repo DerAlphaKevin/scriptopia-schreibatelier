@@ -31,7 +31,7 @@ export const AboutMe: React.FC = () => {
               Papier war für mich schon immer mehr als nur ein Schreibuntergrund – es ist ein Speicher für Erinnerungen, Skizzen und Träume.
             </p>
             <p>
-              In meiner kleinen Werkstatt entstehen Travelers Notebooks, die nicht nur funktional sind, sondern eine eigene Geschichte erzählen. 
+              In meiner kleinen Werkstatt entstehen die Journal Covers, die nicht nur funktional sind, sondern eine eigene Geschichte erzählen. 
               Jedes Stück ist ein Unikat, sorgfältig ausgewählt und verarbeitet, um dich auf deinen Wegen zu begleiten.
             </p>
             <p className="font-garamond italic text-xl">
