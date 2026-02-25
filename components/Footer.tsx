@@ -15,7 +15,7 @@ export const Footer: React.FC = () => {
         </div>
         
         <div className="text-xs text-gray-400 font-light">
-          © {new Date().getFullYear()} Scriptopia Schreibatelier. Alle Rechte vorbehalten.
+          © {new Date().getFullYear()} Scriptoria Schreibatelier. Alle Rechte vorbehalten.
         </div>
 
         <div className="flex gap-6 text-sm text-gray-600 font-light">

@@ -7,7 +7,7 @@ export const Availability: React.FC = () => {
       <div className="max-w-4xl mx-auto text-center space-y-12">
         <div className="space-y-4">
           <h2 className="text-4xl md:text-5xl">Wo du mich findest</h2>
-          <p className="text-white/60 font-garamond italic text-xl">Scriptopia kommt bald zu dir</p>
+          <p className="text-white/60 font-garamond italic text-xl">Scriptoria kommt bald zu dir</p>
         </div>
 
         <div className="grid grid-cols-1 md:grid-cols-2 gap-8 text-left">

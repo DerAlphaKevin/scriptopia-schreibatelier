@@ -27,7 +27,7 @@ export const AboutMe: React.FC = () => {
           
           <div className="space-y-4 text-gray-700 font-light leading-relaxed">
             <p>
-              Willkommen im Scriptopia Schreibatelier. Ich bin die kreative Seele hinter diesen handgefertigten Buchhüllen. 
+              Willkommen im Scriptoria Schreibatelier. Ich bin die kreative Seele hinter diesen handgefertigten Buchhüllen. 
               Papier war für mich schon immer mehr als nur ein Schreibuntergrund – es ist ein Speicher für Erinnerungen, Skizzen und Träume.
             </p>
             <p>

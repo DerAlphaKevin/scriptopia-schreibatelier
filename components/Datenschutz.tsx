@@ -10,7 +10,7 @@ export const Datenschutz: React.FC = () => {
           <Link to="/" className="inline-block mb-8 hover:opacity-60 transition-opacity">
             <img 
               src="/images/logo/logo.png" 
-              alt="Scriptopia Logo" 
+              alt="Scriptoria Logo" 
               className="max-w-[100px] h-auto"
             />
           </Link>
@@ -32,11 +32,11 @@ export const Datenschutz: React.FC = () => {
               <p className="font-light">
                 Verantwortliche Stelle für die Datenverarbeitung ist:<br />
                 <br />
-                Scriptopia Schreibatelier<br />
+                Scriptoria Schreibatelier<br />
                 Theresa Fleischhauer<br />
                 Flurstr. 4<br />
                 57076 Siegen<br />
-                E-Mail: <a href="mailto:theresa@scriptopia-schreibatelier.de" className="underline hover:text-black/60">theresa@scriptopia-schreibatelier.de</a><br />
+                E-Mail: <a href="mailto:theresa@scriptoria-schreibatelier.de" className="underline hover:text-black/60">theresa@scriptoria-schreibatelier.de</a><br />
                 Telefon: <a href="tel:017639950413" className="underline hover:text-black/60">+49 176 39950413</a>
               </p>
             </section>
